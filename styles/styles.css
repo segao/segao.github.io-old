@@ -50,54 +50,54 @@
 }
 
 .landscape.hero:before {
-  right: 50%;
-  border-right: 40px solid transparent;
-  border-left: 1000px solid #FFF;
+	right: 50%;
+	border-right: 40px solid transparent;
+	border-left: 1000px solid #FFF;
 }
 
 .landscape.hero:after {
-  left: 50%;
-  border-left: 40px solid transparent;
-  border-right: 1000px solid #FFF;
+	left: 50%;
+	border-left: 40px solid transparent;
+	border-right: 1000px solid #FFF;
 }
 
 .landscape.hero:before, .landscape.hero:after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  width: 50%;
-  border-bottom: 40px solid #FFF;
-  -moz-transform: rotate(0.000001deg);
-  -webkit-transform: rotate(0.000001deg);
-  -o-transform: rotate(0.000001deg);
-  -ms-transform: rotate(0.000001deg);
-  transform: rotate(0.000001deg);
+	content: '';
+	position: absolute;
+	bottom: 0;
+	width: 50%;
+	border-bottom: 40px solid #FFF;
+	-moz-transform: rotate(0.000001deg);
+	-webkit-transform: rotate(0.000001deg);
+	-o-transform: rotate(0.000001deg);
+	-ms-transform: rotate(0.000001deg);
+	transform: rotate(0.000001deg);
 }
 
 .down-arrow {
-  width: 60px;
-  height: 40px;
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  margin-left: -30px;
-  margin-bottom: 25px;
-  cursor: pointer;
-  -webkit-transition: 0.3s margin-bottom ease;
-  -moz-transition: 0.3s margin-bottom ease;
-  -ms-transition: 0.3s margin-bottom ease;
-  -o-transition: 0.3s margin-bottom ease;
-  transition: 0.3s margin-bottom ease;
+	width: 60px;
+	height: 40px;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left: -30px;
+	margin-bottom: 25px;
+	cursor: pointer;
+	-webkit-transition: 0.3s margin-bottom ease;
+	-moz-transition: 0.3s margin-bottom ease;
+	-ms-transition: 0.3s margin-bottom ease;
+	-o-transition: 0.3s margin-bottom ease;
+	transition: 0.3s margin-bottom ease;
 }
 
 .down-arrow:hover {
-  margin-bottom: 15px;
+	margin-bottom: 15px;
 }
 
 .down-arrow:hover svg path {
-  fill: #F33446;
-  -webkit-transition: fill 800ms;
-  transition: fill 800ms;
+	fill: #F33446;
+	-webkit-transition: fill 800ms;
+	transition: fill 800ms;
 }
 
 #intro h1,
@@ -150,19 +150,19 @@
 
 #about .left-col {
 	color: #42adf4;
-    padding: 20px;
-    text-align: right;
-    text-transform: uppercase;
-    font-weight: 700;
+	padding: 20px;
+	text-align: right;
+	text-transform: uppercase;
+	font-weight: 700;
 }
 
 
 .left-col h2 {
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 60px;
-    font-weight: 700;
-    line-height: 55px;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 60px;
+	font-weight: 700;
+	line-height: 55px;
 }
 
 #about .right-col {
@@ -318,8 +318,8 @@
   position: fixed;
   height: 34px;
   width: 40px;
-  left: 30px;
-  top: 20px;
+  left: 10px;
+  top: 5px;
   border-radius: 4px;
   background-color: #012248;
   opacity: 0.5;
