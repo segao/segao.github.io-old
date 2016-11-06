@@ -9,6 +9,5 @@ $(document).ready(function() {
 	$(document).on("click", ".js-menu-close", function() {
 		$menu.removeClass("open");
 		$ham.fadeIn();
-		return false;
 	});
 });
