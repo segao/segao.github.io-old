@@ -46,6 +46,8 @@
 	position: relative;
   	overflow: hidden;
   	line-height: 0px;
+	height: 100vh;
+	
 }
 
 .landscape.hero:before {
