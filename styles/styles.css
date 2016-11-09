@@ -116,7 +116,7 @@
 
 .cta {
 	background-color: #012248;
-	color: white;
+	color: #FFFFFF;
 	padding: 0px;
 	width: 180px;
 	font-size: 18px;
@@ -132,6 +132,7 @@
 
 #about {
 	min-height: 0px;
+	overflow: hidden;
 }
 
 #about h1 {
