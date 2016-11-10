@@ -178,7 +178,10 @@
         	-webkit-transition: all 0.35s;
   		transition: all 0.35s;}
   	.hovereffect:hover h2 {
-		font-weight: 700;}
+		font-weight: 700;
+		text-transform: uppercase;}
+	.hovereffect:hover a {
+		color: #42adf4;}
 
 #contact p {
 	font-size: 24px;
