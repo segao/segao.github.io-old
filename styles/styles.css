@@ -140,7 +140,7 @@
 			max-height: 225px;
 			max-width: 400px;}
 		.col-md-4 img:hover {
-			opacity: 0.2;}
+			opacity: 0.1;}
 .hovereffect {
 	width: 33.3%;
 	height: 100%px;
@@ -171,15 +171,13 @@
         	-ms-transform: scale(1);
   		transform: scale(1);}
 	.hovereffect:hover img {
-		opacity: 0.2;
+		opacity: 0.1;
   		display: block;
   		position: relative;
         	-webkit-transition: all 0.35s;
   		transition: all 0.35s;}
 	.hovereffect h2 {
 		text-shadow: rgba(0, 0, 0, .3) 0px 3px 3px;}
-	.hovereffect .gif:hover {
-		background: url('../img/work/pong.gif');}
 	.hovereffect:hover a {
 		color: #000000;}
 
