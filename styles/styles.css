@@ -150,8 +150,7 @@
 	text-align: center;
 	cursor: default;}
 	.hovereffect .overlay {
-		font-weight: 700;
-		font-size: 20px;
+		font-size: 24px;
   		position: absolute;
   		overflow: hidden;
   		height: 90%;
@@ -177,12 +176,12 @@
   		position: relative;
         	-webkit-transition: all 0.35s;
   		transition: all 0.35s;}
+	.hovereffect h2 {
+		text-shadow: rgba(0, 0, 0, .3) 0px 3px 3px;}
 	.hovereffect .gif:hover {
 		background: url('../img/work/pong.gif');}
-  	.hovereffect:hover h2 {
-		font-weight: 700;}
 	.hovereffect:hover a {
-		color: #42adf4;}
+		color: #000000;}
 
 #contact p {
 	font-size: 24px;
@@ -294,8 +293,7 @@
 	opacity: 0.5;
 	z-index: 1; }
   #hamburger.hidden {
-  	visibility: hidden;
-  }
+  	visibility: hidden;}
   #hamburger:hover {   
 	  background-color: #8eafe5; 
 	  opacity: 1;}
