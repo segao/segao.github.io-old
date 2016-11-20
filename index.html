@@ -11,6 +11,18 @@
   	src="http://code.jquery.com/jquery-3.1.1.min.js"
   	integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
   	crossorigin="anonymous"></script>
+	<script>
+    	$(function() {
+        	$("#gif").hover(
+            		function() {
+                		$(this).attr("src", "animated.gif");
+            		},
+            		function() {
+                	$(this).attr("src", "static.gif");
+            		}                         
+        	);                  
+    	});
+	</script>
   	<script src="scripts/app.js"></script>
  	<script type="text/javascript">
  		$(function() {
@@ -82,8 +94,18 @@
 					Designed and developed personal portfolio.
 					<br><br>HTML/CSS, Bootstrap, JavaScript
 				</div>
-				</a></div>
-			<div class="col-md-4"><img src="img/work/base.png"></div>
+				</a>
+			</div>
+			<div class="col-md-4">
+				<img src="img/work/pongbase.png">
+				<a href="https://github.com/segao/Pong" target="_blank" style="border: 0">
+				<div class="overlay">
+					<h2>Zip'D</h2>
+					A minimalist, easy-to-use file zipper.
+					<br><br>Java
+				</div>
+				</a>	
+			</div>
 		</div>
 		<div class="row">
 			<br><br><br>
