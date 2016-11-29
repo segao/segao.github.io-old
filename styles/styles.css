@@ -150,7 +150,7 @@
 	text-align: center;
 	cursor: default;}
 	.hovereffect .overlay {
-		font-size: 24px;
+		font-size: 16px;
   		position: absolute;
   		overflow: hidden;
   		height: 90%;
@@ -177,6 +177,7 @@
         	-webkit-transition: all 0.35s;
   		transition: all 0.35s;}
 	.hovereffect h2 {
+		font-size: 30px;
 		text-shadow: rgba(0, 0, 0, .3) 0px 3px 3px;}
 	.hovereffect:hover a {
 		color: #000000;}
