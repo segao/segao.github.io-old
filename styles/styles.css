@@ -64,8 +64,8 @@
 		-webkit-transition: fill 800ms;
 		transition: fill 800ms;}
 .circular {
-  width: 500px;
-  height: 500px;
+  width: 450px;
+  height: 450px;
 	border-radius: 250px;
 	-webkit-border-radius: 250px;
 	-moz-border-radius: 250px;
