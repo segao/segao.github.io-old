@@ -345,6 +345,10 @@
 }
 
 @media screen and (max-width: 992px) {
+	.circular {
+  		width: 250px;
+  		height: 250px;
+	}
 	.row {
 		width: 100%;
 	}
@@ -363,6 +367,10 @@
 }
 
 @media only screen and (max-width: 768px) {
+	.circular {
+  		width: 200px;
+  		height: 200px;
+	}
 	#intro {
 		min-height: 640px;
 	}
@@ -382,6 +390,10 @@
 }
 
 @media only screen and (max-width: 480px) {
+	.circular {
+  		width: 175px;
+  		height: 175px;
+	}
 	#intro {
 		min-height: 640px;
 	}
