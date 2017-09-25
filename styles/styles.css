@@ -154,6 +154,17 @@
 		.right-col h5 {
 			font-size: 24px;
 			line-height: 30px;}
+#work {
+	font-size: 24px;
+	background-color: #90b8f9;
+	padding-bottom: 50px;
+	margin: 0px;}
+	#work h1 {
+		line-height: 70px;
+		font-size: 60px;
+		text-shadow: rgba(0, 0, 0, .2) 0px 3px 3px;
+	}
+}
 
 #projects {
 	font-size: 24px;
