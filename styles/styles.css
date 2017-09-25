@@ -177,7 +177,7 @@
 }
 
 #projects {
-	font-size: 28px;
+	font-size: 30px;
 	line-height: 30px;
 	color: #212833;
 	background-color: #4286f4;
@@ -415,7 +415,9 @@
 }
 
 @media only screen and (max-width: 480px) {
+	font-size: 48px;
 	.circular {
+		visibility: hidden;
   		width: 200px;
   		height: 200px;
 	}
