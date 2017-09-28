@@ -161,7 +161,7 @@
 		padding-right: 20px;
 		padding-left: 20px;}
 		.right-col h5 {
-			font-size: 28px;
+			font-size: 24px;
 			line-height: 30px;}
 #work {
 	background-color: #ccdfff;
@@ -180,7 +180,7 @@
 #projects {
 	min-height: 100vh;
 	max-height: 100vh;
-	font-size: 30px;
+	font-size: 24px;
 	line-height: 30px;
 	color: #212833;
 	background-color: #4286f4;
