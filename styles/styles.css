@@ -177,6 +177,7 @@
 }
 
 #projects {
+	min-height: 100vh;
 	font-size: 30px;
 	line-height: 30px;
 	color: #212833;
